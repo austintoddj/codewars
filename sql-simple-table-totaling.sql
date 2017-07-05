@@ -15,7 +15,7 @@ select on
     total_people
 
 The query must rank each clan by their total_points, you must return each unqiue clan and if there is no clan name you must replace it with [no clan specified], you must sum the total_points for each clan and the total_people within that clan.
- */
+*/
 
 SELECT
   RANK() OVER (ORDER BY SUM(points) DESC) AS rank,
