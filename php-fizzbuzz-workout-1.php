@@ -15,7 +15,7 @@
  */
 function pre_fizz(int $n)
 {
-    // My initial solution
+    // INITIAL SOLUTION
     // $output = [];
     // $start = 1;
 
@@ -25,6 +25,6 @@ function pre_fizz(int $n)
 
     // return $output;
 
-    // Simplified and refactored solution
+    // REFACTORED SOLUTION
     return range(1, $n);
 }
